@@ -1,0 +1,46 @@
+img.card-img-top {
+    width: 15%; /* Adjust width as needed */
+    height: 15%; /* Maintain aspect ratio */
+}
+
+.star-rating {
+    unicode-bidi: bidi-override;
+    color: #fdd835; /* Star color when filled */
+    font-size: 50px; /* Adjust size as needed */
+}
+
+.star-rating:before {
+    content: '★★★★★'; /* Unicode character for filled star */
+    letter-spacing: 3px; /* Adjust spacing between stars */
+}
+
+.star-rating[data-rating="1"]:before {
+    content: '★☆☆☆☆'; /* One star filled */
+}
+
+.star-rating[data-rating="2"]:before {
+    content: '★★☆☆☆'; /* Two stars filled */
+}
+
+.star-rating[data-rating="3"]:before {
+    content: '★★★☆☆'; /* Three stars filled */
+}
+
+.star-rating[data-rating="4"]:before {
+    content: '★★★★☆'; /* Four stars filled */
+}
+
+.star-rating[data-rating="5"]:before {
+    content: '★★★★★'; /* Five stars filled */
+}
+
+
+.btn{
+    background-color: #da437d !important; 
+    color: #fff !important; 
+}
+
+.btn:hover {
+    background-color: #e29fce !important; 
+}
+

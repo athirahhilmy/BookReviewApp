@@ -1,0 +1,20 @@
+body {
+    background-color: #ced1a4;
+}
+
+.card-img-top {
+    height: 200px; /* Reduce the height to make images smaller */
+    object-fit: cover;
+}
+.card {
+    max-width: 200px; /* Reduce the card width */
+}
+
+.btn1, .btn2, .btn3 {
+    background-color: #c3b981 !important; /* Your custom background color */
+    color: #fff !important; /* Text color */
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    background-color: #b6ba96 !important; /* Hover background color */
+}
